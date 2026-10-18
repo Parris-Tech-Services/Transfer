@@ -1,12 +1,6 @@
 name: Format CI fix
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - .github/workflows/format-fix.yml
-      - podcasttodo.md
-      - qa.mjs
   workflow_dispatch:
 
 permissions:
